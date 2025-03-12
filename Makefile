@@ -1,0 +1,2 @@
+generate:
+	openapi-generator generate -i https://supersheets-ai.s3-eu-west-1.amazonaws.com/mcp/pappers/openapi.yaml -g go -o pappers-client-go --skip-validate-spec --git-host github.com --git-repo-id pappers-client-go --git-user-id supersheets-ai
